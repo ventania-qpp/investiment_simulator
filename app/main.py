@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from matplotlib import font_manager
 import matplotlib.pyplot as plt
 
 font_path = "app/ipaexg.ttf"
