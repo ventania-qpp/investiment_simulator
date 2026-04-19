@@ -8,10 +8,6 @@ font_path = "app/ipaexg.ttf"
 font_manager.fontManager.addfont(font_path)
 plt.rcParams["font.family"]
 
-#plt.rcParams["font.family"] = "IPAexGothic"
-#plt.rcParams["font.family"] = "MS Gothic"
-#plt.rcParams["font.family"] = "Noto Sans CJK JP"
-
 st.set_page_config(page_title="積立シミュレーター", layout="wide")
 
 # タイトル
