@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 font_path = "app/ipaexg.ttf"
 font_manager.fontManager.addfont(font_path)
-plt.rcParams["font.family"]
+plt.rcParams["font.family"] = "IPAexGothic"
 
 st.set_page_config(page_title="積立シミュレーター", layout="wide")
 
