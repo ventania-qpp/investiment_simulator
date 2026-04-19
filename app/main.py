@@ -3,8 +3,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-plt.rcParams["font.family"] = "IPAexGothic"
+#plt.rcParams["font.family"] = "IPAexGothic"
 #plt.rcParams["font.family"] = "MS Gothic"
+plt.rcParams["font.family"] = "Noto Sans CJK JP"
 
 st.set_page_config(page_title="積立シミュレーター", layout="wide")
 
