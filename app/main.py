@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import japanize_matplotlib
 
 
-plt.rcParams["font.family"] = "MS Gothic"
+#plt.rcParams["font.family"] = "MS Gothic"
 
 st.set_page_config(page_title="積立シミュレーター", layout="wide")
 
